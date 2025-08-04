@@ -80,19 +80,19 @@ border-radius: 10px;
 }
 
 #gameCanvas {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     border: 2px solid #b438aa;
     margin-top: 1rem;
 }
 
 .juego-area {
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     background: #1a1a40;
     margin: 1rem auto;
     border: 2px solid #b438aa;
-    border-radius: 10px;
+    border-radius: 8px;
     overflow: hidden;
 }
 
@@ -383,7 +383,7 @@ footer {
   padding-block: 0.5rem;
   padding-inline: 1.25rem;
   background-color: #b438aa;
-  border-radius: 9999px;
+  border-radius: 99px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -395,6 +395,7 @@ footer {
   overflow: hidden;
   font-size: 15px;
   cursor: pointer;
+  font-size: 10px;
 }
 
 .icon {
