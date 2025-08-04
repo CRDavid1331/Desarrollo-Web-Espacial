@@ -9,12 +9,13 @@ body {
 header {
   text-align: center;
   padding: 2rem;
-  background: linear-gradient(to bottom, #14084f, #0b0f2a);
+  background: linear-gradient(to bottom, #000000 10% , #000000 10%); 
 }
 
 .logo {
   width: 120px;
   margin-bottom: 1rem;
+  border-radius: 5px;
 }
 
 .subtitulo {
@@ -24,14 +25,26 @@ header {
 
 #proga{
 width: 100px;
+height: 100px;
+align-items: center;
+text-align: center;
+border-radius: 10px;
 }
 
 #soporte{
     width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
 }
 
 #ti{
     width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
 }
 
 .galaxia, .juego, .galeria {
@@ -63,12 +76,12 @@ width: 100px;
 .game-section {
     padding: 2rem;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.03);
+    background-color: rgba(0, 0, 0, 0.03);
 }
 
 #gameCanvas {
     background-color: black;
-    border: 2px solid #00ffff;
+    border: 2px solid #b438aa;
     margin-top: 1rem;
 }
 
@@ -78,7 +91,7 @@ width: 100px;
     height: 300px;
     background: #1a1a40;
     margin: 1rem auto;
-    border: 2px solid #fff;
+    border: 2px solid #b438aa;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -240,7 +253,7 @@ footer {
 /* From Uiverse.io by Codecite */ 
 #btnInfoTecnica
 {
-  --fancy-button-gradient-0: #8d49fd;
+  --fancy-button-gradient-0: #7f56f3;
   --fancy-button-gradient-50: #7f56f3;
   --fancy-button-gradient-100: #5691f3;
   --fancy-button-inner-shadow-top: rgba(233, 209, 255, 0.2);
@@ -369,7 +382,7 @@ footer {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
   padding-block: 0.5rem;
   padding-inline: 1.25rem;
-  background-color: rgb(30, 52, 110);
+  background-color: #b438aa;
   border-radius: 9999px;
   display: flex;
   align-items: center;
@@ -456,7 +469,7 @@ footer {
   width: 200px;
   height: 264px;
   border-radius: 10px;
-  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );
+  background: linear-gradient(-45deg, #ffffff 0%, #40c9ff 100% );
   z-index: -10;
   pointer-events: none;
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -467,7 +480,7 @@ footer {
   z-index: -1;
   position: absolute;
   inset: 0;
-  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
+  background: linear-gradient(-45deg, #ffffff 0%, #b438aa 0% );
   transform: translate3d(0, 0, 0) scale(0.95);
   filter: blur(20px);
 }
@@ -483,7 +496,7 @@ footer {
 }
 
 .card p:last-child {
-  color: #e81cff;
+  color: #ffffff;
   font-weight: 600;
 }
 
